@@ -14,6 +14,8 @@
 <body>
 <center><h2>Shopping Cart</h2></center>
 <center> ${msg} </center>
+<br>
+<center> ${loginmsg} </center>
 <hr>
 
 <a href="Login">Login</a><br>

@@ -9,12 +9,12 @@
 <body>
 This is Login page
 
+<br>
+<form action="validate">
 
-<form action="/validate">
+User ID: <input type="text" name="userID">  <br>
 
-User ID:<input type="text" name="userID">  <br>
-
-PASSWORD:<input type="password" name="password">  <br>
+Password:<input type="password" name="password">  <br>
 
 <input type="submit" value="Login">
 

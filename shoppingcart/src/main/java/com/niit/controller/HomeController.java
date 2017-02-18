@@ -43,12 +43,12 @@ public class HomeController {
 		
 		if(id.equals("niit") && pwd.equals("niit@123"))
 	{
-			mv.addObject("msg","valid credentials");
+			mv.addObject("loginmsg","valid credentials");
 		
 	}
 		else
 		{
-			mv.addObject("msg", "Invalid Credentials...please try again");
+			mv.addObject("loginmsg", "Invalid Credentials...please try again");
 		}
 		return mv;
 	}
